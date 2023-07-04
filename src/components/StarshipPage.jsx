@@ -158,8 +158,8 @@ const StarshipPage = () => {
       <div className='top-main-content'>
         <div className="top-main-layout">
           <div className='plant-text'>
-            Species
-             <img src={basket} alt='image' className='plant-image' />
+            StarShips
+             
           </div>
           <div className='number-17'>3058</div>
           <div className='film-second-text'> 
