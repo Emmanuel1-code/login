@@ -157,7 +157,7 @@ const DashboardPage = () => {
     </div>
 
     <div className='big-content'>
-    <div className="big-layout-container1">
+       <div className="big-layout-container1">
         <div className="big-layout">
           <div className='plant-text'>
             Species

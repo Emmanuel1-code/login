@@ -10,7 +10,7 @@
   .sidebar {
     background-color: #ffffff;
     border: 1px solid #dbe3ee;
-    width: 250px;
+    width: 300px;
     font-family: sans-serif;
     
   }
@@ -27,6 +27,7 @@
     background-color: #ffffff;
     font-family: sans-serif;
     height: 60px;
+    
   }
   .nav-line{
     border: 1px solid #dbe3ee;
@@ -37,14 +38,15 @@
   
   .main-container {
     background-color: #f6f6f6;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-top: 25px;
+    padding-right: 40px;
     flex-grow: 1;
   }
   .big-content{
     background-color: #f6f6f6;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
     
     flex-grow: 1;
   }
@@ -88,7 +90,7 @@
     margin-bottom: 20px;
     display: grid;
     padding-top: 1px;
-    
+    padding-right: 40px;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
 
@@ -231,13 +233,13 @@
   font-size: 16px;
   background: none;
   border: none;
-  padding: 9px;
+  padding-left: 10px;
   margin-bottom: 30px;
   font-weight: 600;
   color: black;
   border-right: 5px solid rgb(255, 208, 0);
   justify-content: space-between;
-  padding-right: 82px;
+  padding-right: 130px;
   
 }
 .Dashboard-button:focus{
@@ -261,7 +263,7 @@
   
 }
 .big-N{
-  margin-left: 780px;
+  margin-left: 750px;
   margin-top: -25px;
   height: 70px;
   width: 70px;
@@ -280,7 +282,7 @@
 }
 .nav-content{
   display: flex;
-  margin-left: 690px;
+  margin-left: 650px;
   width: 280px;
   justify-content: space-between;
 }
@@ -291,7 +293,7 @@
   color: rgba(141, 153, 174, 1);
   width: 130px;
   height: 30px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   border: 1px solid rgb(239, 239, 239, 1);
@@ -309,7 +311,7 @@
   color: rgba(141, 153, 174, 1);
   width: 130px;
   height: 30px;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   margin-left: 10px;
 
@@ -428,12 +430,12 @@
 }
 
 .dash-loader {
-  border: 4px solid #d67777;
-  border-top: 4px solid #022a44;
+  border: 3px solid #646161;
+  border-top: 3px solid #9dbfd6;
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  animation: spin 0.5s linear infinite;
+  animation: spin 0.4s linear infinite;
 }
 
 @keyframes spin {
