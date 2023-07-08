@@ -249,6 +249,8 @@
 }
 .dash-div{
   margin-left: 5px;
+  padding-bottom: 9px;
+  display: flex;
   
 }
 .top-dashboard{
@@ -260,6 +262,7 @@
 }
 .dashboard-image{
   margin-left: 44px;
+  height: 20px;
   
 }
 .big-N{
